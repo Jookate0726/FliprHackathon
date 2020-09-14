@@ -1,0 +1,1316 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:paddingBottom="@dimen/cardview_default_elevation"
+    android:paddingLeft="@dimen/cardview_default_elevation"
+    android:paddingRight="@dimen/cardview_default_elevation"
+    android:paddingTop="@dimen/cardview_default_elevation">
+     <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".task2" >
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:textStyle="bold|italic"
+                    android:text= "STATE    "
+                    android:textSize="20dp"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="RURAL HOSPITALS    "
+                    android:textStyle="bold|italic"
+                    android:textSize="20dp"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="1"
+                    android:textStyle="bold|italic"
+                    android:text= "RURAL BEDS    "
+                    android:textSize="20dp"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="URBAN HOsPITALS    "
+                    android:textStyle="bold|italic"
+                    android:textSize="20dp"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="1"
+                    android:textStyle="bold|italic"
+                    android:text= "URBAN BEDS    "
+                    android:textSize="20dp"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="TOTAL HOSPITALS    "
+                    android:textStyle="bold|italic"
+                    android:textSize="20dp"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:layout_column="1"
+                    android:textStyle="bold|italic"
+                    android:text= "TOTAL BEDS    "
+                    android:textSize="20dp"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="DATE TIME    "
+                    android:textStyle="bold|italic"
+                    android:textSize="20dp"
+                    android:gravity="left"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"/>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1mm"
+                android:background="#E91E63"/>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text= "INDIA"
+                    android:textStyle="bold|italic"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="19810       "
+                    android:textStyle="bold|italic"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="279588       "
+                    android:textStyle="bold|italic"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="3772       "
+                    android:textStyle="bold|italic"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="431173       "
+                    android:textStyle="bold|italic"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="23582       "
+                    android:textStyle="bold|italic"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="710761       "
+                    android:textStyle="bold|italic"
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="2016-01-01T00:00:00.000Z       "
+                    android:textStyle="bold|italic"
+                    android:gravity="left"
+                    android:padding="3dip" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text= "Andhra Pradesh"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="193       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="6480       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="65       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="16658       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="258       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="23138       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="2017-01-01T00:00:00.000Z       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+            </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Arunachal Pradesh"
+                android:padding="3dip" />
+            <TextView
+                android:text="208       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2136       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="10       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="268       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="218       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2404       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Assam"
+                android:padding="3dip" />
+            <TextView
+                android:text="1176       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="10944       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="50       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="6198       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1226       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="17142       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Bihar"
+                android:padding="3dip" />
+            <TextView
+                android:text="930       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="6083       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="103       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="5936       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1033       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="12019       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Chhattisgarh"
+                android:padding="3dip" />
+            <TextView
+                android:text="169       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="5070       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="45       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4342       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="214       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="9412       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Goa"
+                android:padding="3dip" />
+            <TextView
+                android:text="17       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1405       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="25       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1608       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="42       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="3013       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Gujarat"
+                android:padding="3dip" />
+            <TextView
+                android:text="364       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="11715       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="122       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="20565       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="486       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="32280       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Haryana"
+                android:padding="3dip" />
+            <TextView
+                android:text="609       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="6690       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="59       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4550       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="668       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="11240       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Himachal Pradesh"
+                android:padding="3dip" />
+            <TextView
+                android:text="705       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="5665       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="96       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="6734       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="801       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="12399       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Jammu and Kashmir"
+                android:padding="3dip" />
+            <TextView
+                android:text="56       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="7234       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="76       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4417       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="132       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="11651       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-12-30T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Jharkhand"
+                android:padding="3dip" />
+            <TextView
+                android:text="519       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="5842       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="36       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4942       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="555       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="10784       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2015-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Karnataka"
+                android:padding="3dip" />
+            <TextView
+                android:text="2471       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="21072       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="374       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="49093       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2845       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="70165       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Kerala"
+                android:padding="3dip" />
+            <TextView
+                android:text="981       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="16865       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="299       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="21139       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1280       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="38004       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Madhya Pradesh"
+                android:padding="3dip" />
+            <TextView
+                android:text="334       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="10020       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="117       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="18819       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="451       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="28839       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Maharashtra"
+                android:padding="3dip" />
+            <TextView
+                android:text="273       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="12398       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="438       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="39048       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="711       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="51446       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2015-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Manipur"
+                android:padding="3dip" />
+            <TextView
+                android:text="23       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="730       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="7       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="697       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="30       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1427       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2014-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Meghalaya"
+                android:padding="3dip" />
+            <TextView
+                android:text="143       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1970       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="14       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2487       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="157       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4457       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Mizoram"
+                android:padding="3dip" />
+            <TextView
+                android:text="56       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="604       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="34       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1393       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="90       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1997       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Nagaland"
+                android:padding="3dip" />
+            <TextView
+                android:text="21       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="630       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="15       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1250       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="36       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1880       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2015-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Odisha"
+                android:padding="3dip" />
+            <TextView
+                android:text="1655       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="6339       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="149       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="12180       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1804       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="18519       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Punjab"
+                android:padding="3dip" />
+            <TextView
+                android:text="510       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="5805       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="172       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="12128       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="682       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="17933       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Rajasthan"
+                android:padding="3dip" />
+            <TextView
+                android:text="602       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="21088       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="150       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="10760       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="752       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="31848       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Sikkim"
+                android:padding="3dip" />
+            <TextView
+                android:text="24       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="260       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="9       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1300       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="33       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1560       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Tamil Nadu"
+                android:padding="3dip" />
+            <TextView
+                android:text="692       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="40179       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="525       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="37353       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1217       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="77532       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Telangana"
+                android:padding="3dip" />
+            <TextView
+                android:text="802       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="7668       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="61       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="13315       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="863       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="20983       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Tripura"
+                android:padding="3dip" />
+            <TextView
+                android:text="99       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1140       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="56       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="3277       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="155       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4417       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Uttar Pradesh"
+                android:padding="3dip" />
+            <TextView
+                android:text="4442       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="39104       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="193       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="37156       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4635       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="76260       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Uttarakhand"
+                android:padding="3dip" />
+            <TextView
+                android:text="410       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="3284       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="50       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="5228       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="460       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="8512       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2015-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "West Bengal"
+                android:padding="3dip" />
+            <TextView
+                android:text="1272       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="19684       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="294       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="58882       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1566       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="78566       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2015-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Andaman and Nicobar Islands"
+                android:padding="3dip" />
+            <TextView
+                android:text="27       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="575       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="3       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="500       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="30       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1075       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Chandigarh"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="778       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="4       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="778       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Dadra and Nagar Haveli"
+                android:padding="3dip" />
+            <TextView
+                android:text="10       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="273       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="1       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="316       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="11       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="589       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2017-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Daman and Diu"
+                android:padding="3dip" />
+            <TextView
+                android:text="5       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="240       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="5       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="240       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2015-12-31T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Delhi"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="109       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="24383       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="109       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="24383       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2015-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Lakshadweep"
+                android:padding="3dip" />
+            <TextView
+                android:text="9       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="300       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="0       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="9       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="300       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "Puducherry"
+                android:padding="3dip" />
+            <TextView
+                android:text="3       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="96       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="11       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="3473       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="14       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="3569       "
+                android:gravity="left"
+                android:padding="3dip" />
+            <TextView
+                android:text="2016-01-01T00:00:00.000Z       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+        </TableLayout>
+    </ScrollView>
+</HorizontalScrollView>

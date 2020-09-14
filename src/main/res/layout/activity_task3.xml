@@ -1,0 +1,1237 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:paddingBottom="@dimen/cardview_default_elevation"
+    android:paddingLeft="@dimen/cardview_default_elevation"
+    android:paddingRight="@dimen/cardview_default_elevation"
+    android:paddingTop="@dimen/cardview_default_elevation">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".task2" >
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:textStyle="bold|italic"
+                    android:text= "TITLE"
+                    android:textSize="20dp"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="LINK"
+                    android:textStyle="bold|italic"
+                    android:textSize="20dp"
+                    android:gravity="left"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"/>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1mm"
+                android:background="#E91E63"/>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text= "PIB"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="https://pib.gov.in/newsite/pmreleases.aspx?mincode=31       "
+                    android:gravity="left"
+                    android:padding="3dip" />
+            </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "02.08.2020 Revised guidelines for International Arrivals"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/RevisedguidelinesforInternationalArrivals02082020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "24.05.2020 Guidelines for international arrivals"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinesforinternationalarrivals.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "24.05.2020 Guidelines for domestic travel (air/train/inter-state bus travel)"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinesfordomestictravel(airortrainorinter-statebustravel).pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "20.03.2020 Instructions to all major and minor ports for dealing with(COVID-19)"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/DGSOrder04of2020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "19.03.2020 Additional Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Traveladvisory.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.03.2020 Standard Operating Procedure for Passenger Movement post Disembarkation"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/SOPQuarantineofPassengers.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.03.2020 Additional Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/TravelAdvisory17thMarch.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "16.03.2020 Additional Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/TravelAdvisory16thMarch.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "14.03.2020 Restrictions on International passenger traffic through Land Check Posts"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/NewinstructionsDt14032020Restirctiononinternationalpassengertraffic.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "13.03.2020 Restrictions on International passenger traffic through land check posts-COVID 19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/GuidelinesDT13032020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "11.03.2020 Consolidated Travel Advisory - 11 March 2020"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/ConsolidatedTraveladvisoryUpdated11032020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "11.03.2020 Visa restrictions issued by Bureau of Immigration (BOI) after meeting of GoM on COVID19 - 11 March 2020"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/VisarestrictionsrelatedtoCOVID19Ministries.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "11.03.2020 Decisions- High level Group of Ministers meeting to review current status and actions for prevention and management of COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/HFWnCoVGoM11March2020II.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "10.03.2020 Standard Operating Procedure (SOP) for COVID-19 Management- International Cruise Ships at major Indian Ports"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/InternationalCruiseShipsSOPforCovid19.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "10.03.2020 Additional Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/AdditionalTravelAdvisory10032020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "10.03.2020 Travel Advisory (Home Isolation)"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/AdditionalTravelAdvisory1homeisolation.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "06.03.2020 Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/DraftTraveladvisorytotravelersUpdated06032020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "05.03.2020 Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/TravelAdvisory5thMarch.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "03.03.2020 Travel and Visa restrictions related to COVID-19 in respect of Bureau of Immigration"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "02.03.2020 Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Consolidated%20Travel%20advisory%20to%20travelers%20Updated%2002032020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "26.02.2020 Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Consolidated%20Travel%20advisory%20to%20travelers%20Updated%2026-02-2020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "05.02.2020 Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Traveladvisory05022020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "25.01.2020 Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/TraveladvisorytotravelersvisitingChina25012020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.01.2020 Travel Advisory"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/TraveladvisorytotravelersvisitingChina17012020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "01.04.2020 Taking care of mental health of children during COVID - 19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/mentalhealthchildrean.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "01.04.2020 Taking care of mental health of elderly during COVID -19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/mentalhealthelderly.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "01.04.2020 Psychosocial issues among migrants during COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/RevisedPsychosocialissuesofmigrantsCOVID19.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "31.03.2020 Minding our minds during the COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/MindingourmindsduringCoronaeditedat.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.07.2020 Advisory for Gated Residential Complexes with regards to COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/AdvisoryforRWAsonCOVID19.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.07.2020 Guidelines for Gated Residential Complexes Desirous of Setting Up Small Covid Care Facility by Resident Welfare Associations / Residential Societies / Non-Governmental Organizations (NGOs)"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/CovidCareFacilityinGatedcomplexes.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "13.07.2020 Fixation of rate for rt PCR Test for COVID-19 in respect of Central Services (Medical Attendance) beneficiaries"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/OMregfixationofCOVIDtestorCSMAbeneficiaries.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "04.06.2020 SOP on preventive measures in Restaurants to contain spread of COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/3SoPstobefollowedinRestaurants.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.05.2020 Guidelines on preventive measures to contain spread of COVID-19 in workplace settings"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/GuidelinesonpreventivemeasurestocontainspreadofCOVID19inworkplacesettings.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.05.2020 Revised Strategy for COVlD-19 testing in lndia"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Revisedtestingguidelines.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.04.2020 EoI cum Bid Document for Procurement of Medical Oxygen Cylinder on urgent basis during COVID 19 situation"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/MedicalOxygenCylinder.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "05.04.2020 Guidelines for Quarantine facilities COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/90542653311584546120quartineguidelines.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "03.04.2020 Advisory &amp; Manual on use of Homemade Protective Cover for Face &amp; Mouth"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Advisory&amp;ManualonuseofHomemadeProtectiveCoverforFace&amp;Mouth.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "03.04.2020 DO Letter of Secretary, Ministry of Human Resource Development for Arogya Setu App, and Light Candle at 09:00 PM on 5 April 2020 for 9 Minute."
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/DOSecyHRD.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "01.04.2020 Guidelines for Dialysis of COVID  19 patients"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/GuidelinesforDialysisofCovid19Patients.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "29.03.2020 Health Advisory for Elderly Population of India during COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/AdvisoryforElderlyPopulation.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "29.03.2020 Guidelines on disinfection of common public places including offices"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinesondisinfectionofcommonpublicplacesincludingoffices.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "27.03.2020 Office Memorandum-CGHS-Reimbursement of OPD Medicines Special Sanction in view of COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/OM27march2020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "27.03.2020 Office Order-CGHS-Guidelines in view of the Corona Virus (COVID-19) Infection-issue of medicines"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/officeorder20032020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "27.03.2020 Office Order-CGHS-Guidelines in View of COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/officeorder18032020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "26.03.2020 Gazette Notification - Hydroxychloroquine now a schedule H1 drug, can be sold on prescription only"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/218927g.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "26.03.2020 Press Note on Pradhan Mantri Garib Kalyan Yojna package from Ministry of Finance"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/MoFPMGaribKalyanYojanaPackage.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "16.03.2020 Advisory - Social Distancing"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/SocialDistancingAdvisorybyMOHFW.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "15.03.2020 Guidelines on Dead Body Management"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/1584423700568_COVID19GuidelinesonDeadbodymanagement.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "11.03.2020 Guidelines for home quarantine"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinesforhomequarantine.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "11.03.2020 Guidelines on use of masks by public"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Useofmaskbypublic.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "05.03.2020 Advisory - Mass Gatherings"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/advisoryformassgathering.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "22.05.2020 Revised advisory on the use of Hydroxychloroquine (HCQ) as prophylaxis for COVID-19 infection"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/RevisedadvisoryontheuseofhydroxychloroquineasprophylaxisforSARSCOVID19infection.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "21.05.2020 Guidance note for Immunization services during and post COVID outbreak"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/3ImmunizationServicesduringCOVIDOutbreakSummary150520202.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "19.05.2020 Guidelines for Dental Professionals in Covid-19 situation"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/DentalAdvisoryF.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.05.2020 Revised Strategy for COVlD-19 testing in lndia"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Revisedtestingguidelines.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "07.04.2020 Revised Guidelines for Dialysis of COVID  19 patients"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/RevisedGuidelinesforDialysisofCOVID19Patients.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "05.04.2020 Guidelines for Quarantine facilities COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/90542653311584546120quartineguidelines.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "26-03-2020 Gazette Notification - Hydroxychloroquine now a schedule H1 drug, can be sold on prescription only"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/218927g.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "24-03-2020 Letter from Ministry of Consumer Affairs, Food &amp; Public Distribution to States to take appropriate measures to ensure the availability of Ethyl Alcohol/Ethanol/ENA to the manufacturers of hand sanitizers in order to contain Corona Virus COVID- l9"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/ReviewofpricesofEssentialCommodities.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "20-03-2020 Advisory for Hospitals and Medical Institutions"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/AdvisoryforHospitalsandMedicalInstitutions.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "15-03-2020 SOP for Mock Drill on 22nd March 2020 for Hospital Preparedness"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/MockDrill.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "05.09.2020 Manual for Surveillance Teams for containment zones"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/ManualforSurveillanceTeamsforcontainmentzones.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "02.08.2020 Revised guidelines for International Arrivals"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/RevisedguidelinesforInternationalArrivals02082020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.07.2020 Advisory for Gated Residential Complexes with regards to COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/AdvisoryforRWAsonCOVID19.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.07.2020 Guidelines for Gated Residential Complexes Desirous of Setting Up Small Covid Care Facility by Resident Welfare Associations / Residential Societies / Non-Governmental Organizations (NGOs)"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/CovidCareFacilityinGatedcomplexes.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "04.06.2020 SOP on preventive measures in Restaurants to contain spread of COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/3SoPstobefollowedinRestaurants.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "24.05.2020 Guidelines for international arrivals"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinesforinternationalarrivals.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "24.05.2020 Guidelines for domestic travel (air/train/inter-state bus travel)"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinesfordomestictravel(airortrainorinter-statebustravel).pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "22.05.2020 Revised advisory on the use of Hydroxychloroquine (HCQ) as prophylaxis for COVID-19 infection"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/RevisedadvisoryontheuseofhydroxychloroquineasprophylaxisforSARSCOVID19infection.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "21.05.2020 Guidance note for Immunization services during and post COVID outbreak"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/3ImmunizationServicesduringCOVIDOutbreakSummary150520202.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.05.2020 Guidelines on preventive measures to contain spread of COVID-19 in workplace settings"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/GuidelinesonpreventivemeasurestocontainspreadofCOVID19inworkplacesettings.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.05.2020 Revised Strategy for COVlD-19 testing in lndia"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Revisedtestingguidelines.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "16.05.2020 Updated Cluster Containment Plan for COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Containmentplan16052020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "05.04.2020 Guidelines for Quarantine facilities COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/90542653311584546120quartineguidelines.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "03.04.2020 Request to States/UTs to provide support to ICMR Labs doing COVID-19 Testing"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Covid19DOtoStatesSupportLabinrealtimeupdate.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "03.04.2020 DO Letter of Secretary, Ministry of Human Resource Development for Arogya Setu App, and Light Candle at 09:00 PM on 5 April 2020 for 9 Minute"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/DOSecyHRD.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.05.2020 Guidelines on preventive measures to contain spread of COVID-19 in workplace settings"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/GuidelinesonpreventivemeasurestocontainspreadofCOVID19inworkplacesettings.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "29-03-2020 Guidelines on disinfection of common public places including offices"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinesondisinfectionofcommonpublicplacesincludingoffices.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "19-03-2020 DOPT OM - Preventive measures to contain the spread of COVID-19 in Training Institutes"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/InstructionsforTrainingInstitutes.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18-03-2020 Directives from MoHRD for all Educational Institutions and Examination Boards regarding precautions to be taken in light of COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/DOSecyHE.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.03.2020 DoPT OM - Preventive measures to be taken to contain the spread of Novel Coronavirus (COVID-19)"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/PreventivemeasuresDOPT.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "18.03.2020 DO Letter from Secretary, DoHFW to State Chief Secretaries regarding Social Distancing Measures"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Letterdated2032020toCSs.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "06.03.2020 Advisory for Exemption to mark biometric attendance in AEBAS"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/advisoryforbiometricattendance.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "12.06.2020 Guidelines for Hotels on preventive measures to contain spread of COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/HotelsGuidelines11thJune.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "1. What is Corona Virus and how does it transmits"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/CoronaVirus.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "2.  Handwashing"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Handwash.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "3.  COVID Appropriate Behaviours"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/PreventiveMeasures.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "4.  Home Quarantine"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/HomeQuarantine.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "5.  Myth Busters"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/MythBusters.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "6.  All India National Helpline 1075"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/1075.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "7. No Spitting"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/NoSpitting.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "8. Stigma and Discrimination"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Stigma&amp;Discrimination.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "9. Thank you COVID Warriors"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/ThankYouCOVIDWarriors.pptx       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "31.03.2020 Handling Public Grievances pertaining to COVID-19 in M/o Health &amp; Family Welfare"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/MoHFWCOVIDNODALOFFICER.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "29.03.2020 Poster on Social distancing in a market place during COVID-19 English"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/socialdistancingEnglish.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "29.03.2020 Poster on Social distancing in a market place during COVID-19 Hindi"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/socialdistancingHindi.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "1.  A letter from HFM to the Health Administrators"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/HFMLettergeneralawarness.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "2. Community leaflet"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/LeafletGHFandDHGA.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "3. What is Novel Coronavirus?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster1GHFanDHGA.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "4.Is your Healthcare facility ready to manage patients with COVID-19?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster2GHFGA.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "5.How to use the handrub?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster3GHFGA.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "6.When and How to wear mask?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster4GHFGA.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "7.Guidelines on the use of materials"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/GuidelinebookGA1mb.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "1. A letter from HFM to the Health Administrators"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/HFMLetter.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "2.Community leaflet"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/LeafletGHFandDH.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "3. What is Novel Coronavirus?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster1GHFandDH.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "4.Is your Healthcare facility ready to manage patients with COVID-19?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster2.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "5.How to protect all health workers at designated hospital?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster3.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "6.What are my moments of hand hygiene?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster4.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "7.How to manage Suspected or confirmed COVID-19 patients at designated hospital?"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster5DH.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "8.;Guidelines on the use of materials"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Guidelinebook1mb.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "1.Facilitator Guide"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/FacilitatorGuideCOVID19_27 March.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "2.PPT with seven sessions including for Urban"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/2COVID19PPT_25MarchPPTWithAnimation.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "3. A digital pocket book for front line workers"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/3Pocketbookof5_Covid19_27March.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "4.Training Protocols and guidelines"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/4FLWToolkitHowtousethetoolkit.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "5.Training Plan template"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/5COVIDFLWTrainingPlan27March.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "28.03.2020 When to get tested for COVID-19 English"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/FINAL_14_03_2020_ENg.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "28.03.2020 When to get tested for COVID-19 Hindi"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/FINAL_14_03_2020_Hindi.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "25.03.2020 Role of Frontline Workers in Prevention and Management of CORONA VIRUS- English"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/PreventionandManagementofCOVID19FLWEnglish.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "25.03.2020 Role of Frontline Workers in Prevention and Management of CORONA VIRUS - Hindi"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/PreventionandManagementofCOVID19FLWHindi.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "23.03.2020 Posters for Safety measures against COVID-19 - English"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/ProtectivemeasuresEng.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "23.03.2020 Posters for Safety measures against COVID-19 - Hindi"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/ProtectivemeasuresHin.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "22.03.2020 KIDS, VAAYU &amp; CORONA : Comic book for children to provide correct information about COVID-19 - Part 2"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/CoronaComic2PGIPU22Mar20.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "19.03.2020 Posters for Indians traveling from abroad - English"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/PostrerEnglishtraveller.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "19.03.2020 Posters for Indians traveling from abroad - Hindi"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/PosterTravellerHindi.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.03.2020 When to wear mask?: English"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Mask-Eng.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "17.03.2020 When to wear mask?: Hindi"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Mask-Hindi.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "09.03.2020 KIDS, VAAYU &amp; CORONA : Comic book for children to provide correct information about COVID-19"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Corona_comic_PGI.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "06.03.2020 Do's and Don't Poster in English"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster_Corona_ad_Eng.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "06.03.2020 Do's and Don't Poster in Hindi"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/Poster_Corona_ad_Hin.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow><TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text= "12.05.2020 Poster for Felicitating our Nurses and Midwives on International Nurses day 2020"
+                android:padding="3dip" />
+            <TextView
+                android:text="https://www.mohfw.gov.in/pdf/PosterInternationalNurseDay2020.pdf       "
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+        </TableLayout>
+    </ScrollView>
+</HorizontalScrollView>
